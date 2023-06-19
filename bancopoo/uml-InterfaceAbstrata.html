@@ -1,0 +1,89 @@
+<html><head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+InterfaceAbstrata</title></head><body bgcolor=#ffffff text=#000000vlink=#330000 alink=#330044 link=#0000aa>
+<h2>InterfaceAbstrata</h2>
+<p><a href="../bancopoo/JDialog e JFrame.html">bancopoo.JDialog e JFrame</a></p><p><a href="../bancopoo/JFrame.html">bancopoo.JFrame</a></p><p></p><table width=100% cellspacing=0 cellpadding=0>
+<tr><td width=32% valign=top>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+javax.swing. <a href=../javax/swing/uml-JFrame.html>JFrame</a>
+</td></tr></table></td></tr>
+</table>
+</td><td width=12 align=center valign=top>
+<img src=../images/ext.gif>
+</td><td width=32% valign=top align=center>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#92ff7d><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/InterfaceAbstrata.html>InterfaceAbstrata</a>
+</td></tr><tr><td>
+-<a href=../bancopoo/InterfaceAbstrata.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+#<a href=../bancopoo/InterfaceAbstrata.html#PanelFrame>PanelFrame</a> :<a href=../javax/swing/uml-JFrame.html>JFrame</a><br>
+#<a href=../bancopoo/InterfaceAbstrata.html#mainFrame>mainFrame</a> :<a href=../javax/swing/uml-JFrame.html>JFrame</a><br>
+<u>#<a href=../bancopoo/InterfaceAbstrata.html#isSmallWindowOpen>isSmallWindowOpen</a> :boolean</u><br>
+#<a href=../bancopoo/InterfaceAbstrata.html#buttonLabels>buttonLabels</a> :<a href=../java/lang/uml-String.html>String</a>[]<br>
+#<a href=../bancopoo/InterfaceAbstrata.html#buttonIcons>buttonIcons</a> :<a href=../java/lang/uml-String.html>String</a>[]<br>
+#<a href=../bancopoo/InterfaceAbstrata.html#buttonPanel>buttonPanel</a> :<a href=../javax/swing/uml-JPanel.html>JPanel</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceAbstrata.html#InterfaceAbstrata(javax.swing.JFrame,org.hibernate.Session,java.lang.String)>InterfaceAbstrata</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session, <a href=../java/lang/uml-String.html>String</a> titulo)<br>
++<a href=../bancopoo/InterfaceAbstrata.html#showInterface()>showInterface</a>() :void<br>
+#<a href=../bancopoo/InterfaceAbstrata.html#createSmallButton(java.lang.String)>createSmallButton</a>(<a href=../java/lang/uml-String.html>String</a> iconPath) :<a href=../javax/swing/uml-JButton.html>JButton</a><br>
+#<a href=../bancopoo/InterfaceAbstrata.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
+</td></tr></table></td></tr>
+</table>
+</td><td width=12 align=center valign=top>
+<img src=../images/ext.gif
+</td>
+<td width=32% valign=top>
+<table border=1 width=100% cellpadding=0 cellspacing=3><tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/uml-InterfaceEstoque.html>InterfaceEstoque</a>
+</td></tr><tr><td>
+-<a href=../bancopoo/InterfaceEstoque.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+-<a href=../bancopoo/InterfaceEstoque.html#selectedPeca>selectedPeca</a> :<a href=../java/lang/uml-String.html>String</a><br>
+-<a href=../bancopoo/InterfaceEstoque.html#panelFrame>panelFrame</a> :<a href=../bancopoo/uml-InterfaceEstoque.html>InterfaceEstoque</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceEstoque.html#InterfaceEstoque(javax.swing.JFrame,org.hibernate.Session)>InterfaceEstoque</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session)<br>
+#<a href=../bancopoo/InterfaceEstoque.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
++<a href=../bancopoo/InterfaceEstoque.html#updateTableData(javax.swing.table.DefaultTableModel)>updateTableData</a>(<a href=../javax/swing/table/uml-DefaultTableModel.html>DefaultTableModel</a> model) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/uml-InterfaceFuncionario.html>InterfaceFuncionario</a>
+</td></tr><tr><td>
+-<a href=../bancopoo/InterfaceFuncionario.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+-<a href=../bancopoo/InterfaceFuncionario.html#selectedCPF>selectedCPF</a> :<a href=../java/lang/uml-String.html>String</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceFuncionario.html#InterfaceFuncionario(javax.swing.JFrame,org.hibernate.Session)>InterfaceFuncionario</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session)<br>
+#<a href=../bancopoo/InterfaceFuncionario.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
+-<a href=../bancopoo/InterfaceFuncionario.html#updateTableData(javax.swing.table.DefaultTableModel)>updateTableData</a>(<a href=../javax/swing/table/uml-DefaultTableModel.html>DefaultTableModel</a> model) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/uml-InterfaceVenda.html>InterfaceVenda</a>
+</td></tr><tr><td>
+-<a href=../bancopoo/InterfaceVenda.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceVenda.html#InterfaceVenda(javax.swing.JFrame,org.hibernate.Session)>InterfaceVenda</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session)<br>
+#<a href=../bancopoo/InterfaceVenda.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
+-<a href=../bancopoo/InterfaceVenda.html#updateTableData(javax.swing.table.DefaultTableModel)>updateTableData</a>(<a href=../javax/swing/table/uml-DefaultTableModel.html>DefaultTableModel</a> model) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/uml-InterfaceFornecedor.html>InterfaceFornecedor</a>
+</td></tr><tr><td>
+-<a href=../bancopoo/InterfaceFornecedor.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+-<a href=../bancopoo/InterfaceFornecedor.html#selectedCPF>selectedCPF</a> :<a href=../java/lang/uml-String.html>String</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceFornecedor.html#InterfaceFornecedor(javax.swing.JFrame,org.hibernate.Session)>InterfaceFornecedor</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session)<br>
+#<a href=../bancopoo/InterfaceFornecedor.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
+-<a href=../bancopoo/InterfaceFornecedor.html#updateTableData(javax.swing.table.DefaultTableModel)>updateTableData</a>(<a href=../javax/swing/table/uml-DefaultTableModel.html>DefaultTableModel</a> model) :void<br>
+ <a href=../bancopoo/InterfaceFornecedor.html#setEnable(boolean)>setEnable</a>(boolean b) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+bancopoo. <a href=../bancopoo/uml-InterfaceCliente.html>InterfaceCliente</a>
+</td></tr><tr><td>
+#<a href=../bancopoo/InterfaceCliente.html#session>session</a> :<a href=../org/hibernate/uml-Session.html>Session</a><br>
+-<a href=../bancopoo/InterfaceCliente.html#selectedCPF>selectedCPF</a> :<a href=../java/lang/uml-String.html>String</a><br>
+</td></tr><tr><td>
++<a href=../bancopoo/InterfaceCliente.html#InterfaceCliente(javax.swing.JFrame,org.hibernate.Session)>InterfaceCliente</a>(<a href=../javax/swing/uml-JFrame.html>JFrame</a> mainFrame, <a href=../org/hibernate/uml-Session.html>Session</a> session)<br>
+#<a href=../bancopoo/InterfaceCliente.html#createTable(org.hibernate.Session)>createTable</a>(<a href=../org/hibernate/uml-Session.html>Session</a> session) :<a href=../javax/swing/uml-JTable.html>JTable</a><br>
+-<a href=../bancopoo/InterfaceCliente.html#updateTableData(javax.swing.table.DefaultTableModel)>updateTableData</a>(<a href=../javax/swing/table/uml-DefaultTableModel.html>DefaultTableModel</a> model) :void<br>
+</td></tr></table></td></tr>
+</table>
+</td></tr>
+</table></body></html>

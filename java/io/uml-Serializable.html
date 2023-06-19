@@ -1,0 +1,499 @@
+<html><head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+Serializable</title></head><body bgcolor=#ffffff text=#000000vlink=#330000 alink=#330044 link=#0000aa>
+<h2>Serializable</h2>
+<p></p><table width=100% cellspacing=0 cellpadding=0>
+<tr><td width=32% valign=top>
+</td><td width=12 align=center valign=top>
+</td><td width=32% valign=top align=center>
+<table border=0 width=100% cellpadding=0 cellspacing=0><tr><td bgcolor=#fcfb6f><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+java.io. <a href=../../java/io/Serializable.html>Serializable</a>
+</td></tr></table></td></tr>
+</table>
+</td><td width=12 align=center valign=top>
+<img src=../../images/ext.gif
+</td>
+<td width=32% valign=top>
+<table border=1 width=100% cellpadding=0 cellspacing=3><tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbVenPeca.html>TbVenPeca</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbVenPeca.html#tbVenda>tbVenda</a> :<a href=../../banco/uml-TbVenda.html>TbVenda</a><br>
+-<a href=../../banco/TbVenPeca.html#tbEstoque>tbEstoque</a> :<a href=../../banco/uml-TbEstoque.html>TbEstoque</a><br>
+-<a href=../../banco/TbVenPeca.html#vpId>vpId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVenPeca.html#vpQuantidade>vpQuantidade</a> :int<br>
+</td></tr><tr><td>
++<a href=../../banco/TbVenPeca.html#TbVenPeca()>TbVenPeca</a>()<br>
++<a href=../../banco/TbVenPeca.html#TbVenPeca(banco.TbVenda,banco.TbEstoque,int)>TbVenPeca</a>(<a href=../../banco/uml-TbVenda.html>TbVenda</a> tbVenda, <a href=../../banco/uml-TbEstoque.html>TbEstoque</a> tbEstoque, int vpQuantidade)<br>
++<a href=../../banco/TbVenPeca.html#getVpId()>getVpId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVenPeca.html#setVpId(java.lang.Integer)>setVpId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> vpId) :void<br>
++<a href=../../banco/TbVenPeca.html#getTbVenda()>getTbVenda</a>() :<a href=../../banco/uml-TbVenda.html>TbVenda</a><br>
++<a href=../../banco/TbVenPeca.html#setTbVenda(banco.TbVenda)>setTbVenda</a>(<a href=../../banco/uml-TbVenda.html>TbVenda</a> tbVenda) :void<br>
++<a href=../../banco/TbVenPeca.html#getTbEstoque()>getTbEstoque</a>() :<a href=../../banco/uml-TbEstoque.html>TbEstoque</a><br>
++<a href=../../banco/TbVenPeca.html#setTbEstoque(banco.TbEstoque)>setTbEstoque</a>(<a href=../../banco/uml-TbEstoque.html>TbEstoque</a> tbEstoque) :void<br>
++<a href=../../banco/TbVenPeca.html#getVpQuantidade()>getVpQuantidade</a>() :int<br>
++<a href=../../banco/TbVenPeca.html#setVpQuantidade(int)>setVpQuantidade</a>(int vpQuantidade) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbCliente.html>TbCliente</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbCliente.html#tbEntidade>tbEntidade</a> :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
+-<a href=../../banco/TbCliente.html#cliId>cliId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbCliente.html#tbVendas>tbVendas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbCliente.html#TbCliente()>TbCliente</a>()<br>
++<a href=../../banco/TbCliente.html#TbCliente(banco.TbEntidade)>TbCliente</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade)<br>
++<a href=../../banco/TbCliente.html#TbCliente(banco.TbEntidade,java.util.Set)>TbCliente</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade, <a href=../../java/util/uml-Set.html>Set</a> tbVendas)<br>
++<a href=../../banco/TbCliente.html#getCliId()>getCliId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbCliente.html#setCliId(java.lang.Integer)>setCliId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> cliId) :void<br>
++<a href=../../banco/TbCliente.html#getTbEntidade()>getTbEntidade</a>() :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
++<a href=../../banco/TbCliente.html#setTbEntidade(banco.TbEntidade)>setTbEntidade</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade) :void<br>
++<a href=../../banco/TbCliente.html#getTbVendas()>getTbVendas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbCliente.html#setTbVendas(java.util.Set)>setTbVendas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVendas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbVeiculo.html#veiId>veiId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVeiculo.html#veiModelo>veiModelo</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbVeiculo.html#veiMarca>veiMarca</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbVeiculo.html#veiPlaca>veiPlaca</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbVeiculo.html#veiEmpId>veiEmpId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVeiculo.html#veiPesId>veiPesId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVeiculo.html#tbVendaSers>tbVendaSers</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbVeiculo.html#TbVeiculo()>TbVeiculo</a>()<br>
++<a href=../../banco/TbVeiculo.html#TbVeiculo(java.lang.String,java.lang.String,java.lang.String)>TbVeiculo</a>(<a href=../../java/lang/uml-String.html>String</a> veiModelo, <a href=../../java/lang/uml-String.html>String</a> veiMarca, <a href=../../java/lang/uml-String.html>String</a> veiPlaca)<br>
++<a href=../../banco/TbVeiculo.html#TbVeiculo(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.util.Set)>TbVeiculo</a>(<a href=../../java/lang/uml-String.html>String</a> veiModelo, <a href=../../java/lang/uml-String.html>String</a> veiMarca, <a href=../../java/lang/uml-String.html>String</a> veiPlaca, <a href=../../java/lang/uml-Integer.html>Integer</a> veiEmpId, <a href=../../java/lang/uml-Integer.html>Integer</a> veiPesId, <a href=../../java/util/uml-Set.html>Set</a> tbVendaSers)<br>
++<a href=../../banco/TbVeiculo.html#getVeiId()>getVeiId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiId(java.lang.Integer)>setVeiId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> veiId) :void<br>
++<a href=../../banco/TbVeiculo.html#getVeiModelo()>getVeiModelo</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiModelo(java.lang.String)>setVeiModelo</a>(<a href=../../java/lang/uml-String.html>String</a> veiModelo) :void<br>
++<a href=../../banco/TbVeiculo.html#getVeiMarca()>getVeiMarca</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiMarca(java.lang.String)>setVeiMarca</a>(<a href=../../java/lang/uml-String.html>String</a> veiMarca) :void<br>
++<a href=../../banco/TbVeiculo.html#getVeiPlaca()>getVeiPlaca</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiPlaca(java.lang.String)>setVeiPlaca</a>(<a href=../../java/lang/uml-String.html>String</a> veiPlaca) :void<br>
++<a href=../../banco/TbVeiculo.html#getVeiEmpId()>getVeiEmpId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiEmpId(java.lang.Integer)>setVeiEmpId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> veiEmpId) :void<br>
++<a href=../../banco/TbVeiculo.html#getVeiPesId()>getVeiPesId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVeiculo.html#setVeiPesId(java.lang.Integer)>setVeiPesId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> veiPesId) :void<br>
++<a href=../../banco/TbVeiculo.html#getTbVendaSers()>getTbVendaSers</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbVeiculo.html#setTbVendaSers(java.util.Set)>setTbVendaSers</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVendaSers) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbVendaSer.html>TbVendaSer</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbVendaSer.html#tbVenda>tbVenda</a> :<a href=../../banco/uml-TbVenda.html>TbVenda</a><br>
+-<a href=../../banco/TbVendaSer.html#tbVeiculo>tbVeiculo</a> :<a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a><br>
+-<a href=../../banco/TbVendaSer.html#vsId>vsId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVendaSer.html#vsSerDescricao>vsSerDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbVendaSer.html#vsValorServico>vsValorServico</a> :float<br>
+-<a href=../../banco/TbVendaSer.html#vsKmPercorrido>vsKmPercorrido</a> :float<br>
+-<a href=../../banco/TbVendaSer.html#vsValorKm>vsValorKm</a> :<a href=../../java/lang/uml-Float.html>Float</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbVendaSer.html#TbVendaSer()>TbVendaSer</a>()<br>
++<a href=../../banco/TbVendaSer.html#TbVendaSer(java.lang.String,banco.TbVenda,banco.TbVeiculo,float)>TbVendaSer</a>(<a href=../../java/lang/uml-String.html>String</a> vsSerDescricao, <a href=../../banco/uml-TbVenda.html>TbVenda</a> tbVenda, <a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a> tbVeiculo, float vsValorServico)<br>
++<a href=../../banco/TbVendaSer.html#TbVendaSer(java.lang.String,banco.TbVenda,banco.TbVeiculo,float,float,java.lang.Float)>TbVendaSer</a>(<a href=../../java/lang/uml-String.html>String</a> vsSerDescricao, <a href=../../banco/uml-TbVenda.html>TbVenda</a> tbVenda, <a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a> tbVeiculo, float vsValorServico, float vsKmPercorrido, <a href=../../java/lang/uml-Float.html>Float</a> vsValorKm)<br>
++<a href=../../banco/TbVendaSer.html#getVsId()>getVsId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVendaSer.html#setVsId(java.lang.Integer)>setVsId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> vsId) :void<br>
++<a href=../../banco/TbVendaSer.html#getTbVenda()>getTbVenda</a>() :<a href=../../banco/uml-TbVenda.html>TbVenda</a><br>
++<a href=../../banco/TbVendaSer.html#setTbVenda(banco.TbVenda)>setTbVenda</a>(<a href=../../banco/uml-TbVenda.html>TbVenda</a> tbVenda) :void<br>
++<a href=../../banco/TbVendaSer.html#getTbVeiculo()>getTbVeiculo</a>() :<a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a><br>
++<a href=../../banco/TbVendaSer.html#setTbVeiculo(banco.TbVeiculo)>setTbVeiculo</a>(<a href=../../banco/uml-TbVeiculo.html>TbVeiculo</a> tbVeiculo) :void<br>
++<a href=../../banco/TbVendaSer.html#getVsValorServico()>getVsValorServico</a>() :float<br>
++<a href=../../banco/TbVendaSer.html#setVsValorServico(float)>setVsValorServico</a>(float vsValorServico) :void<br>
++<a href=../../banco/TbVendaSer.html#getVsKmPercorrido()>getVsKmPercorrido</a>() :float<br>
++<a href=../../banco/TbVendaSer.html#setVsKmPercorrido(float)>setVsKmPercorrido</a>(float vsKmPercorrido) :void<br>
++<a href=../../banco/TbVendaSer.html#getVsValorKm()>getVsValorKm</a>() :<a href=../../java/lang/uml-Float.html>Float</a><br>
++<a href=../../banco/TbVendaSer.html#getVsSerDescricao()>getVsSerDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbVendaSer.html#setVsSerDescricao(java.lang.String)>setVsSerDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> vsSerDescricao) :void<br>
++<a href=../../banco/TbVendaSer.html#setVsValorKm(java.lang.Float)>setVsValorKm</a>(<a href=../../java/lang/uml-Float.html>Float</a> vsValorKm) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbTipoPagamento.html>TbTipoPagamento</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbTipoPagamento.html#tpId>tpId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbTipoPagamento.html#tpDescricao>tpDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbTipoPagamento.html#tbVendas>tbVendas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbTipoPagamento.html#TbTipoPagamento()>TbTipoPagamento</a>()<br>
++<a href=../../banco/TbTipoPagamento.html#TbTipoPagamento(java.lang.String)>TbTipoPagamento</a>(<a href=../../java/lang/uml-String.html>String</a> tpDescricao)<br>
++<a href=../../banco/TbTipoPagamento.html#TbTipoPagamento(java.lang.String,java.util.Set)>TbTipoPagamento</a>(<a href=../../java/lang/uml-String.html>String</a> tpDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbVendas)<br>
++<a href=../../banco/TbTipoPagamento.html#getTpId()>getTpId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbTipoPagamento.html#setTpId(java.lang.Integer)>setTpId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> tpId) :void<br>
++<a href=../../banco/TbTipoPagamento.html#getTpDescricao()>getTpDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbTipoPagamento.html#setTpDescricao(java.lang.String)>setTpDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> tpDescricao) :void<br>
++<a href=../../banco/TbTipoPagamento.html#getTbVendas()>getTbVendas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbTipoPagamento.html#setTbVendas(java.util.Set)>setTbVendas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVendas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbEstado.html>TbEstado</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbEstado.html#estSigla>estSigla</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEstado.html#estDescricao>estDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEstado.html#tbCidEsts>tbCidEsts</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbEstado.html#TbEstado()>TbEstado</a>()<br>
++<a href=../../banco/TbEstado.html#TbEstado(java.lang.String,java.lang.String)>TbEstado</a>(<a href=../../java/lang/uml-String.html>String</a> estSigla, <a href=../../java/lang/uml-String.html>String</a> estDescricao)<br>
++<a href=../../banco/TbEstado.html#TbEstado(java.lang.String,java.lang.String,java.util.Set)>TbEstado</a>(<a href=../../java/lang/uml-String.html>String</a> estSigla, <a href=../../java/lang/uml-String.html>String</a> estDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbCidEsts)<br>
++<a href=../../banco/TbEstado.html#getEstSigla()>getEstSigla</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEstado.html#setEstSigla(java.lang.String)>setEstSigla</a>(<a href=../../java/lang/uml-String.html>String</a> estSigla) :void<br>
++<a href=../../banco/TbEstado.html#getEstDescricao()>getEstDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEstado.html#setEstDescricao(java.lang.String)>setEstDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> estDescricao) :void<br>
++<a href=../../banco/TbEstado.html#getTbCidEsts()>getTbCidEsts</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEstado.html#setTbCidEsts(java.util.Set)>setTbCidEsts</a>(<a href=../../java/util/uml-Set.html>Set</a> tbCidEsts) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbCidEst.html>TbCidEst</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbCidEst.html#tbEstado>tbEstado</a> :<a href=../../banco/uml-TbEstado.html>TbEstado</a><br>
+-<a href=../../banco/TbCidEst.html#tbCidade>tbCidade</a> :<a href=../../banco/uml-TbCidade.html>TbCidade</a><br>
+-<a href=../../banco/TbCidEst.html#cepId>cepId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbCidEst.html#tbEndPostals>tbEndPostals</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbCidEst.html#TbCidEst()>TbCidEst</a>()<br>
++<a href=../../banco/TbCidEst.html#TbCidEst(banco.TbCidade,banco.TbEstado)>TbCidEst</a>(<a href=../../banco/uml-TbCidade.html>TbCidade</a> tbCidade, <a href=../../banco/uml-TbEstado.html>TbEstado</a> tbEstado)<br>
++<a href=../../banco/TbCidEst.html#TbCidEst(banco.TbCidade,banco.TbEstado,java.util.Set)>TbCidEst</a>(<a href=../../banco/uml-TbCidade.html>TbCidade</a> tbCidade, <a href=../../banco/uml-TbEstado.html>TbEstado</a> tbEstado, <a href=../../java/util/uml-Set.html>Set</a> tbEndPostals)<br>
++<a href=../../banco/TbCidEst.html#getCepId()>getCepId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbCidEst.html#setCepId(java.lang.Integer)>setCepId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> cepId) :void<br>
++<a href=../../banco/TbCidEst.html#getTbCidade()>getTbCidade</a>() :<a href=../../banco/uml-TbCidade.html>TbCidade</a><br>
++<a href=../../banco/TbCidEst.html#setTbCidade(banco.TbCidade)>setTbCidade</a>(<a href=../../banco/uml-TbCidade.html>TbCidade</a> tbCidade) :void<br>
++<a href=../../banco/TbCidEst.html#getTbEstado()>getTbEstado</a>() :<a href=../../banco/uml-TbEstado.html>TbEstado</a><br>
++<a href=../../banco/TbCidEst.html#setTbEstado(banco.TbEstado)>setTbEstado</a>(<a href=../../banco/uml-TbEstado.html>TbEstado</a> tbEstado) :void<br>
++<a href=../../banco/TbCidEst.html#getTbEndPostals()>getTbEndPostals</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbCidEst.html#setTbEndPostals(java.util.Set)>setTbEndPostals</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEndPostals) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbEntidade.html>TbEntidade</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbEntidade.html#tbEndereco>tbEndereco</a> :<a href=../../banco/uml-TbEndereco.html>TbEndereco</a><br>
+-<a href=../../banco/TbEntidade.html#entCpfCnpj>entCpfCnpj</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entNome>entNome</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entNomeFantasia>entNomeFantasia</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entRgIe>entRgIe</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entFone>entFone</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entEmail>entEmail</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entSexo>entSexo</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#entDtNasc>entDtNasc</a> :<a href=../../java/util/uml-Date.html>Date</a><br>
+-<a href=../../banco/TbEntidade.html#entTipo>entTipo</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEntidade.html#tbFuncionarios>tbFuncionarios</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+-<a href=../../banco/TbEntidade.html#tbFornecedors>tbFornecedors</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+-<a href=../../banco/TbEntidade.html#tbClientes>tbClientes</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbEntidade.html#TbEntidade()>TbEntidade</a>()<br>
++<a href=../../banco/TbEntidade.html#TbEntidade(java.lang.String,banco.TbEndereco,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)>TbEntidade</a>(<a href=../../java/lang/uml-String.html>String</a> entCpfCnpj, <a href=../../banco/uml-TbEndereco.html>TbEndereco</a> tbEndereco, <a href=../../java/lang/uml-String.html>String</a> entNome, <a href=../../java/lang/uml-String.html>String</a> entNomeFantasia, <a href=../../java/lang/uml-String.html>String</a> entRgIe, <a href=../../java/lang/uml-String.html>String</a> entFone, <a href=../../java/lang/uml-String.html>String</a> entEmail, <a href=../../java/lang/uml-String.html>String</a> entTipo)<br>
++<a href=../../banco/TbEntidade.html#TbEntidade(java.lang.String,banco.TbEndereco,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Date,java.lang.String,java.util.Set,java.util.Set,java.util.Set)>TbEntidade</a>(<a href=../../java/lang/uml-String.html>String</a> entCpfCnpj, <a href=../../banco/uml-TbEndereco.html>TbEndereco</a> tbEndereco, <a href=../../java/lang/uml-String.html>String</a> entNome, <a href=../../java/lang/uml-String.html>String</a> entNomeFantasia, <a href=../../java/lang/uml-String.html>String</a> entRgIe, <a href=../../java/lang/uml-String.html>String</a> entFone, <a href=../../java/lang/uml-String.html>String</a> entEmail, <a href=../../java/lang/uml-String.html>String</a> entSexo, <a href=../../java/util/uml-Date.html>Date</a> entDtNasc, <a href=../../java/lang/uml-String.html>String</a> entTipo, <a href=../../java/util/uml-Set.html>Set</a> tbFuncionarios, <a href=../../java/util/uml-Set.html>Set</a> tbFornecedors, <a href=../../java/util/uml-Set.html>Set</a> tbClientes)<br>
++<a href=../../banco/TbEntidade.html#getEntCpfCnpj()>getEntCpfCnpj</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntCpfCnpj(java.lang.String)>setEntCpfCnpj</a>(<a href=../../java/lang/uml-String.html>String</a> entCpfCnpj) :void<br>
++<a href=../../banco/TbEntidade.html#getTbEndereco()>getTbEndereco</a>() :<a href=../../banco/uml-TbEndereco.html>TbEndereco</a><br>
++<a href=../../banco/TbEntidade.html#setTbEndereco(banco.TbEndereco)>setTbEndereco</a>(<a href=../../banco/uml-TbEndereco.html>TbEndereco</a> tbEndereco) :void<br>
++<a href=../../banco/TbEntidade.html#getEntNome()>getEntNome</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntNome(java.lang.String)>setEntNome</a>(<a href=../../java/lang/uml-String.html>String</a> entNome) :void<br>
++<a href=../../banco/TbEntidade.html#getEntNomeFantasia()>getEntNomeFantasia</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntNomeFantasia(java.lang.String)>setEntNomeFantasia</a>(<a href=../../java/lang/uml-String.html>String</a> entNomeFantasia) :void<br>
++<a href=../../banco/TbEntidade.html#getEntRgIe()>getEntRgIe</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntRgIe(java.lang.String)>setEntRgIe</a>(<a href=../../java/lang/uml-String.html>String</a> entRgIe) :void<br>
++<a href=../../banco/TbEntidade.html#getEntFone()>getEntFone</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntFone(java.lang.String)>setEntFone</a>(<a href=../../java/lang/uml-String.html>String</a> entFone) :void<br>
++<a href=../../banco/TbEntidade.html#getEntEmail()>getEntEmail</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntEmail(java.lang.String)>setEntEmail</a>(<a href=../../java/lang/uml-String.html>String</a> entEmail) :void<br>
++<a href=../../banco/TbEntidade.html#getEntSexo()>getEntSexo</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntSexo(java.lang.String)>setEntSexo</a>(<a href=../../java/lang/uml-String.html>String</a> entSexo) :void<br>
++<a href=../../banco/TbEntidade.html#getEntDtNasc()>getEntDtNasc</a>() :<a href=../../java/util/uml-Date.html>Date</a><br>
++<a href=../../banco/TbEntidade.html#setEntDtNasc(java.util.Date)>setEntDtNasc</a>(<a href=../../java/util/uml-Date.html>Date</a> entDtNasc) :void<br>
++<a href=../../banco/TbEntidade.html#getEntTipo()>getEntTipo</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEntidade.html#setEntTipo(java.lang.String)>setEntTipo</a>(<a href=../../java/lang/uml-String.html>String</a> entTipo) :void<br>
++<a href=../../banco/TbEntidade.html#getTbFuncionarios()>getTbFuncionarios</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEntidade.html#setTbFuncionarios(java.util.Set)>setTbFuncionarios</a>(<a href=../../java/util/uml-Set.html>Set</a> tbFuncionarios) :void<br>
++<a href=../../banco/TbEntidade.html#getTbFornecedors()>getTbFornecedors</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEntidade.html#setTbFornecedors(java.util.Set)>setTbFornecedors</a>(<a href=../../java/util/uml-Set.html>Set</a> tbFornecedors) :void<br>
++<a href=../../banco/TbEntidade.html#getTbClientes()>getTbClientes</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEntidade.html#setTbClientes(java.util.Set)>setTbClientes</a>(<a href=../../java/util/uml-Set.html>Set</a> tbClientes) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbBairro.html>TbBairro</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbBairro.html#baiId>baiId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbBairro.html#baiDescricao>baiDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbBairro.html#tbEndPostals>tbEndPostals</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbBairro.html#TbBairro()>TbBairro</a>()<br>
++<a href=../../banco/TbBairro.html#TbBairro(java.lang.String,java.util.Set)>TbBairro</a>(<a href=../../java/lang/uml-String.html>String</a> baiDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbEndPostals)<br>
++<a href=../../banco/TbBairro.html#getBaiId()>getBaiId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbBairro.html#setBaiId(java.lang.Integer)>setBaiId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> baiId) :void<br>
++<a href=../../banco/TbBairro.html#getBaiDescricao()>getBaiDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbBairro.html#setBaiDescricao(java.lang.String)>setBaiDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> baiDescricao) :void<br>
++<a href=../../banco/TbBairro.html#getTbEndPostals()>getTbEndPostals</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbBairro.html#setTbEndPostals(java.util.Set)>setTbEndPostals</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEndPostals) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbPeca.html>TbPeca</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbPeca.html#peId>peId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbPeca.html#peDescricao>peDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbPeca.html#peQuantMin>peQuantMin</a> :float<br>
+-<a href=../../banco/TbPeca.html#peQuantRepos>peQuantRepos</a> :int<br>
+-<a href=../../banco/TbPeca.html#tbFornecedorHasPecas>tbFornecedorHasPecas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbPeca.html#TbPeca()>TbPeca</a>()<br>
++<a href=../../banco/TbPeca.html#TbPeca(java.lang.String,float,int)>TbPeca</a>(<a href=../../java/lang/uml-String.html>String</a> peDescricao, float peQuantMin, int peQuantRepos)<br>
++<a href=../../banco/TbPeca.html#TbPeca(java.lang.String,float,int,java.util.Set)>TbPeca</a>(<a href=../../java/lang/uml-String.html>String</a> peDescricao, float peQuantMin, int peQuantRepos, <a href=../../java/util/uml-Set.html>Set</a> tbFornecedorHasPecas)<br>
++<a href=../../banco/TbPeca.html#getPeId()>getPeId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbPeca.html#setPeId(java.lang.Integer)>setPeId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> peId) :void<br>
++<a href=../../banco/TbPeca.html#getPeDescricao()>getPeDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbPeca.html#setPeDescricao(java.lang.String)>setPeDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> peDescricao) :void<br>
++<a href=../../banco/TbPeca.html#getPeQuantMin()>getPeQuantMin</a>() :float<br>
++<a href=../../banco/TbPeca.html#setPeQuantMin(float)>setPeQuantMin</a>(float peQuantMin) :void<br>
++<a href=../../banco/TbPeca.html#getPeQuantRepos()>getPeQuantRepos</a>() :int<br>
++<a href=../../banco/TbPeca.html#setPeQuantRepos(int)>setPeQuantRepos</a>(int peQuantRepos) :void<br>
++<a href=../../banco/TbPeca.html#getTbFornecedorHasPecas()>getTbFornecedorHasPecas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbPeca.html#setTbFornecedorHasPecas(java.util.Set)>setTbFornecedorHasPecas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbFornecedorHasPecas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbVenda.html>TbVenda</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbVenda.html#tbCliente>tbCliente</a> :<a href=../../banco/uml-TbCliente.html>TbCliente</a><br>
+-<a href=../../banco/TbVenda.html#tbTipoPagamento>tbTipoPagamento</a> :<a href=../../banco/uml-TbTipoPagamento.html>TbTipoPagamento</a><br>
+-<a href=../../banco/TbVenda.html#venId>venId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbVenda.html#venData>venData</a> :<a href=../../java/util/uml-Date.html>Date</a><br>
+-<a href=../../banco/TbVenda.html#venTotal>venTotal</a> :<a href=../../java/lang/uml-Float.html>Float</a><br>
+-<a href=../../banco/TbVenda.html#tbVendaSers>tbVendaSers</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+-<a href=../../banco/TbVenda.html#tbVenPecas>tbVenPecas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbVenda.html#TbVenda()>TbVenda</a>()<br>
++<a href=../../banco/TbVenda.html#TbVenda(java.util.Date)>TbVenda</a>(<a href=../../java/util/uml-Date.html>Date</a> venData)<br>
++<a href=../../banco/TbVenda.html#TbVenda(banco.TbCliente,banco.TbTipoPagamento,java.util.Date,java.util.Set,java.util.Set,java.lang.Float)>TbVenda</a>(<a href=../../banco/uml-TbCliente.html>TbCliente</a> tbCliente, <a href=../../banco/uml-TbTipoPagamento.html>TbTipoPagamento</a> tbTipoPagamento, <a href=../../java/util/uml-Date.html>Date</a> venData, <a href=../../java/util/uml-Set.html>Set</a> tbVendaSers, <a href=../../java/util/uml-Set.html>Set</a> tbVenPecas, <a href=../../java/lang/uml-Float.html>Float</a> venTotal)<br>
++<a href=../../banco/TbVenda.html#getVenTotal()>getVenTotal</a>() :<a href=../../java/lang/uml-Float.html>Float</a><br>
++<a href=../../banco/TbVenda.html#setVenTotal(java.lang.Float)>setVenTotal</a>(<a href=../../java/lang/uml-Float.html>Float</a> venTotal) :void<br>
++<a href=../../banco/TbVenda.html#getVenId()>getVenId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbVenda.html#setVenId(java.lang.Integer)>setVenId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> venId) :void<br>
++<a href=../../banco/TbVenda.html#getTbCliente()>getTbCliente</a>() :<a href=../../banco/uml-TbCliente.html>TbCliente</a><br>
++<a href=../../banco/TbVenda.html#setTbCliente(banco.TbCliente)>setTbCliente</a>(<a href=../../banco/uml-TbCliente.html>TbCliente</a> tbCliente) :void<br>
++<a href=../../banco/TbVenda.html#getTbTipoPagamento()>getTbTipoPagamento</a>() :<a href=../../banco/uml-TbTipoPagamento.html>TbTipoPagamento</a><br>
++<a href=../../banco/TbVenda.html#setTbTipoPagamento(banco.TbTipoPagamento)>setTbTipoPagamento</a>(<a href=../../banco/uml-TbTipoPagamento.html>TbTipoPagamento</a> tbTipoPagamento) :void<br>
++<a href=../../banco/TbVenda.html#getVenData()>getVenData</a>() :<a href=../../java/util/uml-Date.html>Date</a><br>
++<a href=../../banco/TbVenda.html#setVenData(java.util.Date)>setVenData</a>(<a href=../../java/util/uml-Date.html>Date</a> venData) :void<br>
++<a href=../../banco/TbVenda.html#getTbVendaSers()>getTbVendaSers</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbVenda.html#setTbVendaSers(java.util.Set)>setTbVendaSers</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVendaSers) :void<br>
++<a href=../../banco/TbVenda.html#getTbVenPecas()>getTbVenPecas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbVenda.html#setTbVenPecas(java.util.Set)>setTbVenPecas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVenPecas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbPagamento.html>TbPagamento</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbPagamento.html#pagCod>pagCod</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbPagamento.html#pagDescricao>pagDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbPagamento.html#tbAluguels>tbAluguels</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+-<a href=../../banco/TbPagamento.html#tbVendas>tbVendas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbPagamento.html#TbPagamento()>TbPagamento</a>()<br>
++<a href=../../banco/TbPagamento.html#TbPagamento(java.lang.String)>TbPagamento</a>(<a href=../../java/lang/uml-String.html>String</a> pagDescricao)<br>
++<a href=../../banco/TbPagamento.html#TbPagamento(java.lang.String,java.util.Set,java.util.Set)>TbPagamento</a>(<a href=../../java/lang/uml-String.html>String</a> pagDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbAluguels, <a href=../../java/util/uml-Set.html>Set</a> tbVendas)<br>
++<a href=../../banco/TbPagamento.html#getPagCod()>getPagCod</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbPagamento.html#setPagCod(java.lang.Integer)>setPagCod</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> pagCod) :void<br>
++<a href=../../banco/TbPagamento.html#getPagDescricao()>getPagDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbPagamento.html#setPagDescricao(java.lang.String)>setPagDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> pagDescricao) :void<br>
++<a href=../../banco/TbPagamento.html#getTbAluguels()>getTbAluguels</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbPagamento.html#setTbAluguels(java.util.Set)>setTbAluguels</a>(<a href=../../java/util/uml-Set.html>Set</a> tbAluguels) :void<br>
++<a href=../../banco/TbPagamento.html#getTbVendas()>getTbVendas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbPagamento.html#setTbVendas(java.util.Set)>setTbVendas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVendas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbEndPostal.html#tbLogradouro>tbLogradouro</a> :<a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a><br>
+-<a href=../../banco/TbEndPostal.html#tbCidEst>tbCidEst</a> :<a href=../../banco/uml-TbCidEst.html>TbCidEst</a><br>
+-<a href=../../banco/TbEndPostal.html#tbBairro>tbBairro</a> :<a href=../../banco/uml-TbBairro.html>TbBairro</a><br>
+-<a href=../../banco/TbEndPostal.html#endPId>endPId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbEndPostal.html#endPNomerua>endPNomerua</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEndPostal.html#endPCep>endPCep</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEndPostal.html#tbEnderecos>tbEnderecos</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbEndPostal.html#TbEndPostal()>TbEndPostal</a>()<br>
++<a href=../../banco/TbEndPostal.html#TbEndPostal(banco.TbLogradouro,banco.TbBairro,banco.TbCidEst,java.lang.String,java.lang.String)>TbEndPostal</a>(<a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a> tbLogradouro, <a href=../../banco/uml-TbBairro.html>TbBairro</a> tbBairro, <a href=../../banco/uml-TbCidEst.html>TbCidEst</a> tbCidEst, <a href=../../java/lang/uml-String.html>String</a> endPNomerua, <a href=../../java/lang/uml-String.html>String</a> endPCep)<br>
++<a href=../../banco/TbEndPostal.html#TbEndPostal(banco.TbLogradouro,banco.TbBairro,banco.TbCidEst,java.lang.String,java.lang.String,java.util.Set)>TbEndPostal</a>(<a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a> tbLogradouro, <a href=../../banco/uml-TbBairro.html>TbBairro</a> tbBairro, <a href=../../banco/uml-TbCidEst.html>TbCidEst</a> tbCidEst, <a href=../../java/lang/uml-String.html>String</a> endPNomerua, <a href=../../java/lang/uml-String.html>String</a> endPCep, <a href=../../java/util/uml-Set.html>Set</a> tbEnderecos)<br>
++<a href=../../banco/TbEndPostal.html#getEndPId()>getEndPId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbEndPostal.html#setEndPId(java.lang.Integer)>setEndPId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> endPId) :void<br>
++<a href=../../banco/TbEndPostal.html#getTbLogradouro()>getTbLogradouro</a>() :<a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a><br>
++<a href=../../banco/TbEndPostal.html#setTbLogradouro(banco.TbLogradouro)>setTbLogradouro</a>(<a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a> tbLogradouro) :void<br>
++<a href=../../banco/TbEndPostal.html#getTbBairro()>getTbBairro</a>() :<a href=../../banco/uml-TbBairro.html>TbBairro</a><br>
++<a href=../../banco/TbEndPostal.html#setTbBairro(banco.TbBairro)>setTbBairro</a>(<a href=../../banco/uml-TbBairro.html>TbBairro</a> tbBairro) :void<br>
++<a href=../../banco/TbEndPostal.html#getTbCidEst()>getTbCidEst</a>() :<a href=../../banco/uml-TbCidEst.html>TbCidEst</a><br>
++<a href=../../banco/TbEndPostal.html#setTbCidEst(banco.TbCidEst)>setTbCidEst</a>(<a href=../../banco/uml-TbCidEst.html>TbCidEst</a> tbCidEst) :void<br>
++<a href=../../banco/TbEndPostal.html#getEndPNomerua()>getEndPNomerua</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEndPostal.html#setEndPNomerua(java.lang.String)>setEndPNomerua</a>(<a href=../../java/lang/uml-String.html>String</a> endPNomerua) :void<br>
++<a href=../../banco/TbEndPostal.html#getEndPCep()>getEndPCep</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEndPostal.html#setEndPCep(java.lang.String)>setEndPCep</a>(<a href=../../java/lang/uml-String.html>String</a> endPCep) :void<br>
++<a href=../../banco/TbEndPostal.html#getTbEnderecos()>getTbEnderecos</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEndPostal.html#setTbEnderecos(java.util.Set)>setTbEnderecos</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEnderecos) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbFornecedor.html#tbEntidade>tbEntidade</a> :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
+-<a href=../../banco/TbFornecedor.html#forId>forId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbFornecedor.html#tbFornecedorHasPecas>tbFornecedorHasPecas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbFornecedor.html#TbFornecedor()>TbFornecedor</a>()<br>
++<a href=../../banco/TbFornecedor.html#TbFornecedor(banco.TbEntidade)>TbFornecedor</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade)<br>
++<a href=../../banco/TbFornecedor.html#TbFornecedor(banco.TbEntidade,java.util.Set)>TbFornecedor</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade, <a href=../../java/util/uml-Set.html>Set</a> tbFornecedorHasPecas)<br>
++<a href=../../banco/TbFornecedor.html#getForId()>getForId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbFornecedor.html#setForId(java.lang.Integer)>setForId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> forId) :void<br>
++<a href=../../banco/TbFornecedor.html#getTbEntidade()>getTbEntidade</a>() :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
++<a href=../../banco/TbFornecedor.html#setTbEntidade(banco.TbEntidade)>setTbEntidade</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade) :void<br>
++<a href=../../banco/TbFornecedor.html#getTbFornecedorHasPecas()>getTbFornecedorHasPecas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbFornecedor.html#setTbFornecedorHasPecas(java.util.Set)>setTbFornecedorHasPecas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbFornecedorHasPecas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbCidade.html>TbCidade</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbCidade.html#cidId>cidId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbCidade.html#cidDescricao>cidDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbCidade.html#tbCidEsts>tbCidEsts</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbCidade.html#TbCidade()>TbCidade</a>()<br>
++<a href=../../banco/TbCidade.html#TbCidade(java.lang.String,java.util.Set)>TbCidade</a>(<a href=../../java/lang/uml-String.html>String</a> cidDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbCidEsts)<br>
++<a href=../../banco/TbCidade.html#getCidId()>getCidId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbCidade.html#setCidId(java.lang.Integer)>setCidId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> cidId) :void<br>
++<a href=../../banco/TbCidade.html#getCidDescricao()>getCidDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbCidade.html#setCidDescricao(java.lang.String)>setCidDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> cidDescricao) :void<br>
++<a href=../../banco/TbCidade.html#getTbCidEsts()>getTbCidEsts</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbCidade.html#setTbCidEsts(java.util.Set)>setTbCidEsts</a>(<a href=../../java/util/uml-Set.html>Set</a> tbCidEsts) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbLogradouro.html>TbLogradouro</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbLogradouro.html#logId>logId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbLogradouro.html#logDescricao>logDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbLogradouro.html#tbEndPostals>tbEndPostals</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbLogradouro.html#TbLogradouro()>TbLogradouro</a>()<br>
++<a href=../../banco/TbLogradouro.html#TbLogradouro(java.lang.String)>TbLogradouro</a>(<a href=../../java/lang/uml-String.html>String</a> logDescricao)<br>
++<a href=../../banco/TbLogradouro.html#TbLogradouro(java.lang.String,java.util.Set)>TbLogradouro</a>(<a href=../../java/lang/uml-String.html>String</a> logDescricao, <a href=../../java/util/uml-Set.html>Set</a> tbEndPostals)<br>
++<a href=../../banco/TbLogradouro.html#getLogId()>getLogId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbLogradouro.html#setLogId(java.lang.Integer)>setLogId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> logId) :void<br>
++<a href=../../banco/TbLogradouro.html#getLogDescricao()>getLogDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbLogradouro.html#setLogDescricao(java.lang.String)>setLogDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> logDescricao) :void<br>
++<a href=../../banco/TbLogradouro.html#getTbEndPostals()>getTbEndPostals</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbLogradouro.html#setTbEndPostals(java.util.Set)>setTbEndPostals</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEndPostals) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbEndereco.html>TbEndereco</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbEndereco.html#tbEndPostal>tbEndPostal</a> :<a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a><br>
+-<a href=../../banco/TbEndereco.html#endId>endId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbEndereco.html#endNumero>endNumero</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEndereco.html#endComplemento>endComplemento</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEndereco.html#tbEntidades>tbEntidades</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbEndereco.html#TbEndereco()>TbEndereco</a>()<br>
++<a href=../../banco/TbEndereco.html#TbEndereco(banco.TbEndPostal,java.lang.String)>TbEndereco</a>(<a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a> tbEndPostal, <a href=../../java/lang/uml-String.html>String</a> endNumero)<br>
++<a href=../../banco/TbEndereco.html#TbEndereco(banco.TbEndPostal,java.lang.String,java.lang.String,java.util.Set)>TbEndereco</a>(<a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a> tbEndPostal, <a href=../../java/lang/uml-String.html>String</a> endNumero, <a href=../../java/lang/uml-String.html>String</a> endComplemento, <a href=../../java/util/uml-Set.html>Set</a> tbEntidades)<br>
++<a href=../../banco/TbEndereco.html#getEndId()>getEndId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbEndereco.html#setEndId(java.lang.Integer)>setEndId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> endId) :void<br>
++<a href=../../banco/TbEndereco.html#getTbEndPostal()>getTbEndPostal</a>() :<a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a><br>
++<a href=../../banco/TbEndereco.html#setTbEndPostal(banco.TbEndPostal)>setTbEndPostal</a>(<a href=../../banco/uml-TbEndPostal.html>TbEndPostal</a> tbEndPostal) :void<br>
++<a href=../../banco/TbEndereco.html#getEndNumero()>getEndNumero</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEndereco.html#setEndNumero(java.lang.String)>setEndNumero</a>(<a href=../../java/lang/uml-String.html>String</a> endNumero) :void<br>
++<a href=../../banco/TbEndereco.html#getEndComplemento()>getEndComplemento</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEndereco.html#setEndComplemento(java.lang.String)>setEndComplemento</a>(<a href=../../java/lang/uml-String.html>String</a> endComplemento) :void<br>
++<a href=../../banco/TbEndereco.html#getTbEntidades()>getTbEntidades</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEndereco.html#setTbEntidades(java.util.Set)>setTbEntidades</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEntidades) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbCargo.html>TbCargo</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbCargo.html#carId>carId</a> :int<br>
+-<a href=../../banco/TbCargo.html#carDescricao>carDescricao</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbCargo.html#carSalarioBase>carSalarioBase</a> :double<br>
+-<a href=../../banco/TbCargo.html#tbFuncionarios>tbFuncionarios</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbCargo.html#TbCargo()>TbCargo</a>()<br>
++<a href=../../banco/TbCargo.html#TbCargo(int,java.lang.String,double)>TbCargo</a>(int carId, <a href=../../java/lang/uml-String.html>String</a> carDescricao, double carSalarioBase)<br>
++<a href=../../banco/TbCargo.html#TbCargo(int,java.lang.String,double,java.util.Set)>TbCargo</a>(int carId, <a href=../../java/lang/uml-String.html>String</a> carDescricao, double carSalarioBase, <a href=../../java/util/uml-Set.html>Set</a> tbFuncionarios)<br>
++<a href=../../banco/TbCargo.html#getCarId()>getCarId</a>() :int<br>
++<a href=../../banco/TbCargo.html#setCarId(int)>setCarId</a>(int carId) :void<br>
++<a href=../../banco/TbCargo.html#getCarDescricao()>getCarDescricao</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbCargo.html#setCarDescricao(java.lang.String)>setCarDescricao</a>(<a href=../../java/lang/uml-String.html>String</a> carDescricao) :void<br>
++<a href=../../banco/TbCargo.html#getCarSalarioBase()>getCarSalarioBase</a>() :double<br>
++<a href=../../banco/TbCargo.html#setCarSalarioBase(double)>setCarSalarioBase</a>(double carSalarioBase) :void<br>
++<a href=../../banco/TbCargo.html#getTbFuncionarios()>getTbFuncionarios</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbCargo.html#setTbFuncionarios(java.util.Set)>setTbFuncionarios</a>(<a href=../../java/util/uml-Set.html>Set</a> tbFuncionarios) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbFuncionario.html>TbFuncionario</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbFuncionario.html#tbEntidade>tbEntidade</a> :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
+-<a href=../../banco/TbFuncionario.html#tbCargo>tbCargo</a> :<a href=../../banco/uml-TbCargo.html>TbCargo</a><br>
+-<a href=../../banco/TbFuncionario.html#funcId>funcId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbFuncionario.html#funcUsuario>funcUsuario</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbFuncionario.html#funcSenha>funcSenha</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbFuncionario.html#TbFuncionario()>TbFuncionario</a>()<br>
++<a href=../../banco/TbFuncionario.html#TbFuncionario(banco.TbCargo,banco.TbEntidade,java.lang.String,java.lang.String)>TbFuncionario</a>(<a href=../../banco/uml-TbCargo.html>TbCargo</a> tbCargo, <a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade, <a href=../../java/lang/uml-String.html>String</a> funcUsuario, <a href=../../java/lang/uml-String.html>String</a> funcSenha)<br>
++<a href=../../banco/TbFuncionario.html#getFuncId()>getFuncId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbFuncionario.html#setFuncId(java.lang.Integer)>setFuncId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> funcId) :void<br>
++<a href=../../banco/TbFuncionario.html#getTbCargo()>getTbCargo</a>() :<a href=../../banco/uml-TbCargo.html>TbCargo</a><br>
++<a href=../../banco/TbFuncionario.html#setTbCargo(banco.TbCargo)>setTbCargo</a>(<a href=../../banco/uml-TbCargo.html>TbCargo</a> tbCargo) :void<br>
++<a href=../../banco/TbFuncionario.html#getTbEntidade()>getTbEntidade</a>() :<a href=../../banco/uml-TbEntidade.html>TbEntidade</a><br>
++<a href=../../banco/TbFuncionario.html#setTbEntidade(banco.TbEntidade)>setTbEntidade</a>(<a href=../../banco/uml-TbEntidade.html>TbEntidade</a> tbEntidade) :void<br>
++<a href=../../banco/TbFuncionario.html#getFuncUsuario()>getFuncUsuario</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbFuncionario.html#setFuncUsuario(java.lang.String)>setFuncUsuario</a>(<a href=../../java/lang/uml-String.html>String</a> funcUsuario) :void<br>
++<a href=../../banco/TbFuncionario.html#getFuncSenha()>getFuncSenha</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbFuncionario.html#setFuncSenha(java.lang.String)>setFuncSenha</a>(<a href=../../java/lang/uml-String.html>String</a> funcSenha) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbEstoque.html>TbEstoque</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbEstoque.html#tbFornecedorHasPeca>tbFornecedorHasPeca</a> :<a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a><br>
+-<a href=../../banco/TbEstoque.html#estoId>estoId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbEstoque.html#estoQuantidade>estoQuantidade</a> :float<br>
+-<a href=../../banco/TbEstoque.html#estoValorUni>estoValorUni</a> :float<br>
+-<a href=../../banco/TbEstoque.html#estoMargeLucro>estoMargeLucro</a> :float<br>
+-<a href=../../banco/TbEstoque.html#estoMedida>estoMedida</a> :<a href=../../java/lang/uml-String.html>String</a><br>
+-<a href=../../banco/TbEstoque.html#tbVenPecas>tbVenPecas</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbEstoque.html#TbEstoque()>TbEstoque</a>()<br>
++<a href=../../banco/TbEstoque.html#TbEstoque(banco.TbFornecedorHasPeca,float,float,int,float)>TbEstoque</a>(<a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a> tbFornecedorHasPeca, float estoQuantidade, float estoValorUni, int estoFpId, float estoMargeLucro)<br>
++<a href=../../banco/TbEstoque.html#TbEstoque(banco.TbFornecedorHasPeca,float,float,java.lang.String,java.util.Set,float)>TbEstoque</a>(<a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a> tbFornecedorHasPeca, float estoQuantidade, float estoValorUni, <a href=../../java/lang/uml-String.html>String</a> estoMedida, <a href=../../java/util/uml-Set.html>Set</a> tbVenPecas, float estoMargeLucro)<br>
++<a href=../../banco/TbEstoque.html#getEstoId()>getEstoId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbEstoque.html#setEstoId(java.lang.Integer)>setEstoId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> estoId) :void<br>
++<a href=../../banco/TbEstoque.html#getEstoMargeLucro()>getEstoMargeLucro</a>() :float<br>
++<a href=../../banco/TbEstoque.html#setEstoMargeLucro(float)>setEstoMargeLucro</a>(float estoMargeLucro) :void<br>
++<a href=../../banco/TbEstoque.html#getEstoQuantidade()>getEstoQuantidade</a>() :float<br>
++<a href=../../banco/TbEstoque.html#setEstoQuantidade(float)>setEstoQuantidade</a>(float estoQuantidade) :void<br>
++<a href=../../banco/TbEstoque.html#getEstoValorUni()>getEstoValorUni</a>() :float<br>
++<a href=../../banco/TbEstoque.html#setEstoValorUni(float)>setEstoValorUni</a>(float estoValorUni) :void<br>
++<a href=../../banco/TbEstoque.html#getEstoMedida()>getEstoMedida</a>() :<a href=../../java/lang/uml-String.html>String</a><br>
++<a href=../../banco/TbEstoque.html#setEstoMedida(java.lang.String)>setEstoMedida</a>(<a href=../../java/lang/uml-String.html>String</a> estoMedida) :void<br>
++<a href=../../banco/TbEstoque.html#getTbFornecedorHasPeca()>getTbFornecedorHasPeca</a>() :<a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a><br>
++<a href=../../banco/TbEstoque.html#setTbFornecedorHasPeca(banco.TbFornecedorHasPeca)>setTbFornecedorHasPeca</a>(<a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a> tbFornecedorHasPeca) :void<br>
++<a href=../../banco/TbEstoque.html#getTbVenPecas()>getTbVenPecas</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbEstoque.html#setTbVenPecas(java.util.Set)>setTbVenPecas</a>(<a href=../../java/util/uml-Set.html>Set</a> tbVenPecas) :void<br>
+</td></tr></table></td></tr>
+<tr><td bgcolor=#7dfff1><table border cellspacing=0 cellpadding=0 width=100%><tr><td>
+banco. <a href=../../banco/uml-TbFornecedorHasPeca.html>TbFornecedorHasPeca</a>
+</td></tr><tr><td>
+-<a href=../../banco/TbFornecedorHasPeca.html#tbFornecedor>tbFornecedor</a> :<a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a><br>
+-<a href=../../banco/TbFornecedorHasPeca.html#tbPeca>tbPeca</a> :<a href=../../banco/uml-TbPeca.html>TbPeca</a><br>
+-<a href=../../banco/TbFornecedorHasPeca.html#fpId>fpId</a> :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
+-<a href=../../banco/TbFornecedorHasPeca.html#fpValorCompra>fpValorCompra</a> :float<br>
+-<a href=../../banco/TbFornecedorHasPeca.html#tbEstoques>tbEstoques</a> :<a href=../../java/util/uml-Set.html>Set</a><br>
+</td></tr><tr><td>
++<a href=../../banco/TbFornecedorHasPeca.html#TbFornecedorHasPeca()>TbFornecedorHasPeca</a>()<br>
++<a href=../../banco/TbFornecedorHasPeca.html#TbFornecedorHasPeca(banco.TbFornecedor,banco.TbPeca,float)>TbFornecedorHasPeca</a>(<a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a> tbFornecedor, <a href=../../banco/uml-TbPeca.html>TbPeca</a> tbPeca, float fpValorCompra)<br>
++<a href=../../banco/TbFornecedorHasPeca.html#TbFornecedorHasPeca(banco.TbFornecedor,banco.TbPeca,java.util.Set,float)>TbFornecedorHasPeca</a>(<a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a> tbFornecedor, <a href=../../banco/uml-TbPeca.html>TbPeca</a> tbPeca, <a href=../../java/util/uml-Set.html>Set</a> tbEstoques, float fpValorCompra)<br>
++<a href=../../banco/TbFornecedorHasPeca.html#getFpId()>getFpId</a>() :<a href=../../java/lang/uml-Integer.html>Integer</a><br>
++<a href=../../banco/TbFornecedorHasPeca.html#setFpId(java.lang.Integer)>setFpId</a>(<a href=../../java/lang/uml-Integer.html>Integer</a> fpId) :void<br>
++<a href=../../banco/TbFornecedorHasPeca.html#getTbFornecedor()>getTbFornecedor</a>() :<a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a><br>
++<a href=../../banco/TbFornecedorHasPeca.html#setTbFornecedor(banco.TbFornecedor)>setTbFornecedor</a>(<a href=../../banco/uml-TbFornecedor.html>TbFornecedor</a> tbFornecedor) :void<br>
++<a href=../../banco/TbFornecedorHasPeca.html#getTbPeca()>getTbPeca</a>() :<a href=../../banco/uml-TbPeca.html>TbPeca</a><br>
++<a href=../../banco/TbFornecedorHasPeca.html#setTbPeca(banco.TbPeca)>setTbPeca</a>(<a href=../../banco/uml-TbPeca.html>TbPeca</a> tbPeca) :void<br>
++<a href=../../banco/TbFornecedorHasPeca.html#getTbEstoques()>getTbEstoques</a>() :<a href=../../java/util/uml-Set.html>Set</a><br>
++<a href=../../banco/TbFornecedorHasPeca.html#setTbEstoques(java.util.Set)>setTbEstoques</a>(<a href=../../java/util/uml-Set.html>Set</a> tbEstoques) :void<br>
++<a href=../../banco/TbFornecedorHasPeca.html#getFpValorCompra()>getFpValorCompra</a>() :float<br>
++<a href=../../banco/TbFornecedorHasPeca.html#setFpValorCompra(float)>setFpValorCompra</a>(float fpValorCompra) :void<br>
+</td></tr></table></td></tr>
+</table>
+</td></tr>
+</table></body></html>
